@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- global configuration-->
+	<settings>
+		<!-- use getGeneratedKeys to get AI value for PK -->
+		<setting name="useGeneratedKeys" value="true" />
+
+		<!-- use alais for column name default:true -->
+		<setting name="useColumnLabel" value="true" />
+
+		<!-- enable camel naming convension:Table{create_time} -> Entity{createTime} -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+		<!-- show sql log 
+		<setting name="logImpl" value="STDOUT_LOGGING" />
+		-->
+	</settings>
+</configuration>

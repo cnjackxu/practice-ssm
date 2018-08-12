@@ -5,9 +5,8 @@ import java.sql.Date;
 import java.util.List;
 
 public class Product implements Serializable {
-
 	
-	private static final long seriablVersionUID = -1544243361983318561L;
+	private static final long serialVersionUID = -1544243361983318561L;
 	
 	private Long productId;
 	private String productName;
